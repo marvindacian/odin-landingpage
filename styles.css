@@ -1,0 +1,195 @@
+/* background colors */
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.first, .second, footer {
+    background-color: #1F2937;
+}
+
+.third, .fifth {
+    background-color: white;
+}
+
+.fourth {
+    background-color: #e5e7eb;
+}
+
+
+.calltoaction {
+    background-color: #3882F6;
+}
+
+/* fonts and colors */
+.this {
+    font-size: 48px;
+    font-weight:800;
+    color: #f9faf8;
+    margin: 0
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight:800;
+}
+
+button {
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.subtext, .placeholder {
+    font-size: 18px;
+    color: #e5e7eb;
+    opacity: 0.7;
+}
+
+.some {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+}
+
+.link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/* positioning and boxing */
+.first {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction:row;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.link {
+    display: flex;
+    margin-left: auto;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.tva {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.tva button {
+    display: block;
+    text-align: center;
+    width: 110px;
+}
+
+.placeholder {
+    color:white;
+    background-color: #4e4f52;
+    box-sizing: content-box;
+    width: 40%;
+    padding: 100px;
+}
+
+.third {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.some {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.fourth b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.fifth {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;}
+
+.calltoaction {
+    flex: 1;
+    text-align: left;
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}    
+
+.signb button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
